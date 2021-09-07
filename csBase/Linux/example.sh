@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 	# Declare a string variable with escaped double quotation marks
 	str2="Hello this ATA  \"Blog Site\""
@@ -43,11 +43,11 @@
 	while [ $a -lt 110 ] 
 	do
 	   echo $a # Prints the current value
-	   a=`expr $a + 2`# Increments the value by two
+	   a=$(( $a + 2 )) # Increments the value by two
 	done
 	
 	# 管道
-	wc -l /hadoop/config.conf
-	cat /hadoop/config.conf | wc -l
-	cat /hadoop/config.conf | awk -F ' ' '{print $2}'
-	cat /hadoop/config.conf | awk -F ' ' '{print $2}' | awk -F '=' '{print $1}' | sed 's/_IS_INSTALL//'
+	wc -l config.conf
+	cat config.conf | wc -l
+	cat config.conf | awk -F ' ' '{print $2}'
+	cat config.conf | awk -F ' ' '{print $2}' | awk -F '=' '{print $1}' | sed 's/_IS_INSTALL//'
