@@ -2,7 +2,7 @@
 
 1、分别创建ZookeeperC1、2、3
 
-2、在app11中操作，New terminal
+2、在ZookeeperC1的子容器hadoopc1/hadoopc1中操作，New terminal
 
 3、切换到root用户。命令：sudo /bin/bash
 
