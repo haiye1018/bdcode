@@ -7,7 +7,7 @@ import scala.io.Source
 // Windows C:\\"Program Files"\\Java\\jdk1.8.0_73\\bin\\jar.exe -cvf mr.jar -C class/ .
 // Linux jar -cvf mr.jar -C class/ .
 // Windows scala -cp .\mr.jar mr "D:\\DownLoad\\climateExample"
-// Linux scala -cp ./mr.jar mr /tmp/...
+// Linux scala -cp ./mr.jar mr /opt/data
 object mr {
   def getMaxAndMinTemperatureFromOneFile( filename:String ) : (Int,Int) = {
     var file:scala.io.BufferedSource = null
