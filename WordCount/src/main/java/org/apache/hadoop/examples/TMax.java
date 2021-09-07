@@ -34,6 +34,16 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.NullOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
 // hadoop fsck /tmax => blocks == maps
+/* Annotated code package org.apache.hadoop.examples;
+   cp /projects/bdcode/WordCount/src/main/java/org/apache/hadoop/examples/TMax.java /workspace_logs/
+   hadoopc1/hadoopc1==>New terminal==>sudo /bin/bash ==>su - hadoop
+   export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
+   cp /workspace_logs/TMax.java ./
+   hadoop com.sun.tools.javac.Main TMax.java
+   jar cf TMax.jar TMax*.class
+   hadoop jar TMax.jar TMax /user/hive/warehouse/test.db/ncdc /out
+   result: hdfs dfs -cat /out/part-r-00000
+*/
 public class TMax {
 
     public static class TMaxMapper
