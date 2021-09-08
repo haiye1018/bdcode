@@ -51,3 +51,9 @@
 	cat config.conf | wc -l
 	cat config.conf | awk -F ' ' '{print $2}'
 	cat config.conf | awk -F ' ' '{print $2}' | awk -F '=' '{print $1}' | sed 's/_IS_INSTALL//'
+	
+	#磁盘和cpu
+	du -h /opt/data
+	df -h /
+	free
+	# top 1
