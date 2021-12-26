@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# https://www.runoob.com/linux/linux-tutorial.html
+
 	# Declare a string variable with escaped double quotation marks
 	str2="Hello this ATA  \"Blog Site\""
 	# Prints the string value from str2 variable
@@ -57,3 +59,5 @@
 	df -h /
 	free
 	# top 1
+	
+	# environment variable & PATH

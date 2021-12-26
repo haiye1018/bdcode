@@ -1,6 +1,9 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
+# https://www.runoob.com/python3/python3-tutorial.html
+# https://www.lidihuo.com/python/python-index.html
+
 # 第一个注释
 print ("Hello, Python!") # 第二个注释
 '''
