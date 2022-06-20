@@ -60,4 +60,10 @@
 	free
 	# top 1
 	
+	#export HADOOP_GROUP=hadoop
+	#export HADOOP_USER=hadoop
+	#export HADOOP_PASSWD=Yhf_1018
+	#groupadd $HADOOP_GROUP
+	#useradd -d /home/$HADOOP_USER -m $HADOOP_USER -g $HADOOP_GROUP -G root
+	
 	# environment variable & PATH
