@@ -3,6 +3,7 @@
 		echo "use: ./mr.sh [basePath]"
 		exit 1
 	fi
+	# /opt/data
 	export BASEPATH=$1
 	
 	starttime=`date +'%Y-%m-%d %H:%M:%S'`

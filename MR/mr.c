@@ -148,6 +148,7 @@ int getTMAXAndTMIN(char *line, int *temperature)
 
 int main(int argc, char **argv)
 {
+	// Linux:/opt/data
     if (argc != 3)
     {
         printf("use: %s [basePath] [outPath] \n", argv[0]);

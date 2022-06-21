@@ -43,7 +43,7 @@ def getMaxAndMinTemperature(basePath, csvOutPath):
     
     
 if __name__ == '__main__':
-    #basePath = "D:\\DownLoad\\climateExample"
+    #basePath = "D:\\DownLoad\\climateExample"; For Linux:/opt/data
     #csvOutPath = "C:\\Users\\haiye\\Desktop"
     
     if len(sys.argv) != 3:
