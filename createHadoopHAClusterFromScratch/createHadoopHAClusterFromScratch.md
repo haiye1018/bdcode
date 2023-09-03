@@ -8,11 +8,11 @@
 
 4、进入hadoop目录下并查看有哪些文件夹。
 
-5、运行initHost.sh脚本，进行三台机器的认证：./initHosts.sh 确保我们的三台机器是running状态。
+5、运行initHost.sh脚本，进行三台机器的认证：./initHosts.sh 。
 
 命令：./initHosts.sh
 
-6、切换到hadoop用户下，进入hadoop根目录，命令：su – hadoop、cd /hadoop/ 
+6、切换到hadoop用户下，进入hadoop根目录，命令：su - hadoop、cd /hadoop/ 
 
 7、启动zookeeper集群，命令：./startAll.sh
 

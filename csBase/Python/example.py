@@ -57,6 +57,12 @@ print( list[0] )
 print(len(list[0:3]))
 print([len(x) for x in list if type(x) is str])
 
+out = []
+for x in list:
+    if type(x) is str:
+        out.append(len(x))
+print(out)
+
 #元组与列表类似，不同之处在于元组的元素不能修改
 tup1 = ('Google', 'Runoob', 1997, 2000)
 print("tup1[0]: ", tup1[0])
@@ -90,3 +96,5 @@ def FibonacciSequence(nterms):
            count += 1
 
 FibonacciSequence(10)
+
+print("\n")

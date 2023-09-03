@@ -6,8 +6,8 @@ from time import sleep
 
 def main(url, headers):
     # 发送请求
-    page = urllib.request.Request(url, headers=headers)
-    page = urllib.request.urlopen(page)
+    urlDef = urllib.request.Request(url, headers=headers)
+    page = urllib.request.urlopen(urlDef)
     contents = page.read()
     # 用BeautifulSoup解析网页
     soup = BeautifulSoup(contents, "html.parser")
